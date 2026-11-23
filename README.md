@@ -1,4 +1,6 @@
+# SigmaOS aether
 
+> Forked from omacom/aether (MIT). See `SIGMAOS_FORK.md`.
 
 <p align="center">
   <img src="icon.png" alt="Aether Icon" width="256" height="256">
