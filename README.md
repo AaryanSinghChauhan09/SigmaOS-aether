@@ -158,7 +158,7 @@ From `frontend/`, run `npm ci`, `npm run check`, `npm test`, and `npm run build`
 
 ## Complementary Projects
 
-- [sigmaos-theme-hook](https://github.com/AaryanSinghChauhan09/sigmaos-theme-hook) - A clean solution to extend your Omarchy theme to other apps.
+- [sigmaos-theme-hook](https://github.com/AaryanSinghChauhan09/sigmaos-theme-hook) - A clean solution to extend your SigmaOS theme to other apps.
 - [waybar-themes](https://github.com/HANCORE-linux/waybar-themes) - Waybar themes by HANCORE.
 
 ## Contributing
