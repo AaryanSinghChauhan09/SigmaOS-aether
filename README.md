@@ -1,6 +1,4 @@
-# SigmaOS aether
-
-> Forked from omacom/aether (MIT). See `SIGMAOS_FORK.md`.
+# SigmaOS Aether
 
 <p align="center">
   <img src="icon.png" alt="Aether Icon" width="256" height="256">
@@ -10,9 +8,9 @@ https://github.com/user-attachments/assets/58bb3de6-d425-4f8e-a01c-79da7a26a9f0
 
 # Aether
 
-A visual theming application for [Omarchy](https://omarchy.org). Extract colors from wallpapers and apply cohesive themes across your entire desktop.
+A visual theming application for SigmaOS. Extract colors from wallpapers and apply cohesive themes across your entire desktop.
 
-> **Not using Omarchy?** Aether works standalone on any Linux desktop. See the [Standalone Guide](docs/standalone.md) for setup.
+> **Standalone?** Aether works standalone on any Linux desktop. See the [Standalone Guide](docs/standalone.md) for setup.
 
 ## Features
 
@@ -59,7 +57,7 @@ yay -S aether
 
 ### Install (Debian / Ubuntu)
 
-Download the `.deb` from the [latest release](https://github.com/omacom/aether/releases/latest):
+Download the `.deb` from the [latest release](https://github.com/AaryanSinghChauhan09/SigmaOS-aether/releases/latest):
 
 ```bash
 sudo dpkg -i aether_*.deb
@@ -75,13 +73,13 @@ sudo pacman -S go webkit2gtk
 # Debian/Ubuntu
 sudo apt install golang libgtk-3-dev libwebkit2gtk-4.1-dev
 
-git clone https://github.com/omacom/aether.git
-cd aether && make build
+git clone https://github.com/AaryanSinghChauhan09/SigmaOS-aether.git
+cd SigmaOS-aether && make build
 ```
 
 ### Package-managed installs
 
-When pacman owns the `aether` binary, Aether does not check for releases or upgrade itself. `aether upgrade` prints the update command instead: `omarchy-update`, `yay -Syu`, `paru -Syu` or `sudo pacman -Syu`.
+When pacman owns the `aether` binary, Aether does not check for releases or upgrade itself. `aether upgrade` prints the update command instead: `yay -Syu`, `paru -Syu` or `sudo pacman -Syu`.
 
 To set this behavior in other packages, give the update command at build time:
 
@@ -115,8 +113,8 @@ See `aether --help` for all options.
 ## Local Development
 
 ```bash
-git clone https://github.com/omacom/aether.git
-cd aether
+git clone https://github.com/AaryanSinghChauhan09/SigmaOS-aether.git
+cd SigmaOS-aether
 
 # Install frontend dependencies
 cd frontend && npm install && cd ..
@@ -154,13 +152,13 @@ From `frontend/`, run `npm ci`, `npm run check`, `npm test`, and `npm run build`
 | [File System](docs/filesystem.md) | Where Aether stores files |
 | [Remote Control](docs/remote-control.md) | IPC commands and AI integration |
 | [Protocol Handler](docs/protocol-handler.md) | Register `aether://` links |
-| [Omarchy Shell Plugins](docs/quickshell.md) | Native wallpaper and blueprint selectors |
-| [Standalone](docs/standalone.md) | Using Aether without Omarchy |
+| [SigmaOS Shell Plugins](docs/quickshell.md) | Native wallpaper and blueprint selectors |
+| [Standalone](docs/standalone.md) | Using Aether without SigmaOS |
 | [Troubleshooting](docs/troubleshooting.md) | Common issues |
 
 ## Complementary Projects
 
-- [omarchy-theme-hook](https://github.com/OldJobobo/thpm) - A clean solution to extend your Omarchy theme to other apps.
+- [sigmaos-theme-hook](https://github.com/AaryanSinghChauhan09/sigmaos-theme-hook) - A clean solution to extend your Omarchy theme to other apps.
 - [waybar-themes](https://github.com/HANCORE-linux/waybar-themes) - Waybar themes by HANCORE.
 
 ## Contributing
