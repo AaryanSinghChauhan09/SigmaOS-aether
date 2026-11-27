@@ -49,7 +49,7 @@ A visual theming application for SigmaOS. Extract colors from wallpapers and app
 
 ## Quick Start
 
-### Install (Arch Linux)
+### Install (standard Linux)
 
 ```bash
 yay -S aether
